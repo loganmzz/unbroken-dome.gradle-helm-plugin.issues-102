@@ -1,0 +1,8 @@
+apiVersion: "v2"
+name: "unbrokendome.gradle-helm-plugin.issues-102"
+version: "0.1.0"
+
+dependencies:
+- name: nginx
+  version: 8.9.1
+  repository: https://charts.bitnami.com/bitnami
