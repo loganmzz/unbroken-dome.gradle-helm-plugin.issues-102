@@ -9,6 +9,10 @@ plugins {
 }
 
 helm {
+    repositories {
+        bitnami()
+    }
+
     downloadClient {
         enabled.set(true)
         version.set("3.6.0")
